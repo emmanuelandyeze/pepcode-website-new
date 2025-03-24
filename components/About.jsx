@@ -66,6 +66,7 @@ const About = () => {
 									src={'/images/1.jpg'}
 									width={50}
 									height={50}
+									alt="image"
 									className="w-[31px] h-[31px] rounded-full object-cover"
 								/>
 								<p className="text-[#383E49] text-[12px] font-[500]">
@@ -82,6 +83,7 @@ const About = () => {
 									src={'/images/2.jpg'}
 									width={50}
 									height={50}
+									alt="image"
 									className="w-[31px] h-[31px] rounded-full object-cover"
 								/>
 								<p className="text-[#383E49] text-[12px] font-[500]">
@@ -98,6 +100,7 @@ const About = () => {
 									src={'/images/3.jpg'}
 									width={50}
 									height={50}
+									alt="image"
 									className="w-[31px] h-[31px] rounded-full object-cover"
 								/>
 								<p className="text-[#383E49] text-[12px] font-[500]">
@@ -114,6 +117,7 @@ const About = () => {
 									src={'/images/4.jpg'}
 									width={50}
 									height={50}
+									alt="image"
 									className="w-[31px] h-[31px] rounded-full object-cover"
 								/>
 								<p className="text-[#383E49] text-[12px] font-[500]">

@@ -5,12 +5,13 @@ import Image from "next/image";
 const Demo = () => {
 	return (
 		<section className="pb-20">
-			<div className="bg-[#0047BB] py-20 md:py-30 px-4">
+			<div className="pt-14 md:pt-20"></div>
+			<div className="bg-[#0047BB] pt-5 md:pt-5 pb-20 md:py-30 px-4">
 				<div className="max-w-4xl pt-10  text-white mx-auto text-center">
-					<h2 className="text-3xl font-bold">
+					<h2 className="text-[24px] md:text-[40px] font-[600]">
 						Request a demo
 					</h2>
-					<p className="text-sm mt-2">
+					<p className="text-[16px] md:text-[18px] mt-2">
 						Smart bookkeeping, made simple. Try a free demo
 						today
 					</p>
@@ -28,7 +29,7 @@ const Demo = () => {
 							We have you covered
 						</h2>
 						<Image
-							src={'/images/6.jpg'}
+							src={'/images/10.jpg'}
 							width={500}
 							height={500}
 							alt="Team collaboration"

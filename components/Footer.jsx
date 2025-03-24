@@ -4,6 +4,7 @@ import {
 	FaFacebook,
 	FaTwitter,
 } from 'react-icons/fa';
+import { FaSquareInstagram } from 'react-icons/fa6';
 
 const Footer = () => {
 	return (
@@ -17,7 +18,7 @@ const Footer = () => {
 							width={200}
 							height={200}
 							alt="Logo"
-							className="w-full h-[1.7rem] md:w-full md:h-[2.5rem]"
+							className="w-full h-[1.5rem] md:w-full md:h-[2.5rem]"
 						/>
 					</a>
 				</div>
@@ -54,7 +55,7 @@ const Footer = () => {
 					<h3 className="font-semibold">Social media</h3>
 					<div className="flex justify-center md:justify-start space-x-4 mt-2 text-gray-600">
 						<a href="#" className="hover:text-blue-700">
-							<FaInstagram size={18} />
+							<FaSquareInstagram size={18} />
 						</a>
 						<a href="#" className="hover:text-blue-700">
 							<FaFacebook size={18} />

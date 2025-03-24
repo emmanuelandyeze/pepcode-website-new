@@ -18,9 +18,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en" className={hankenGrotesk.variable}>
-			<Navbar />
-			<body className="font-sans">{children}</body>
-			<Footer />
+			<body className="font-sans">
+				<Navbar />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }

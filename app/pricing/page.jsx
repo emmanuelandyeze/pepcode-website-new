@@ -3,7 +3,7 @@ const Pricing = () => {
 		{
 			name: 'Basic plan',
 			description:
-				'Suitable for solo entrepreneurs or small businesses',
+				'Suitable for solo entrepreneurs, small businesses and freelancers',
 			price: '₦5,000',
 			users: 'Only 1 user',
 			transactions: 'Maximum no of transactions - 50',
@@ -53,12 +53,13 @@ const Pricing = () => {
 
 	return (
 		<section className=" pb-20">
-			<div className="bg-[#0047BB] py-20 md:py-30 px-4">
+			<div className="pt-14 md:pt-20"></div>
+			<div className="bg-[#0047BB] pt-5 md:pt-5 pb-20 md:py-30 px-4">
 				<div className="max-w-5xl pt-10  text-white mx-auto text-center">
-					<h2 className="text-[40px] font-[600]">
+					<h2 className="text-[24px] md:text-[40px] font-[600]">
 						Pricing
 					</h2>
-					<p className="text-[18px] mt-2">
+					<p className="text-[16px] md:text-[18px] mt-2">
 						Simple, transparent pricing with no hidden fees.
 						Choose the plan that fits your business needs
 					</p>
@@ -71,21 +72,25 @@ const Pricing = () => {
 						key={index}
 						className="bg-white text-black rounded-[12px] border border-[#E4E4E4] p-6"
 					>
-						<h3 className="text-[28px] font-[500] text-[#004AAD]">
+						<h3 className="text-[24px] md:text-[28px] font-[500] text-[#004AAD]">
 							{plan.name}
 						</h3>
-						<p className="text-[16px] text-[#48505E] font-[400]">
+						<p className="text-[14px] md:not-even:text-[16px] text-[#48505E] font-[400]">
 							{plan.description}
 						</p>
-						<p className="text-[48px] text-[#475467] font-bold mt-4">
+						<p className="text-[40px] md:text-[48px] text-[#475467] font-semibold mt-4">
 							{plan.price}
 							<span className="text-[16px] text-[#475467] font-[400]">
 								/month
 							</span>
 						</p>
-						<button className="bg-[#004AAD] hover:bg-[#004AAD] text-white font-semibold py-[12px] px-4 rounded-md w-full mt-4">
+						<a
+							href="https://app.pepcodeinc.com/signup"
+							target="_blank"
+							className="bg-[#004AAD] flex items-center justify-center hover:bg-[#004AAD] text-white font-semibold py-[12px] px-4 rounded-md w-full mt-4"
+						>
 							Start free trial
-						</button>
+						</a>
 						<ul className="mt-6 space-y-2 text-sm">
 							<li className="flex flex-row items-center">
 								<div className="border-[1px] border-[#E4E4E4] flex justify-center items-center h-[28.4px] w-[28.4px] mr-2 rounded-full">
@@ -108,7 +113,7 @@ const Pricing = () => {
 										/>
 									</svg>
 								</div>{' '}
-								<p className="text-[#475467] font-[700] text-[18px]">
+								<p className="text-[#475467] font-[700] text-[16px] md:text-[18px]">
 									{plan.users}
 								</p>
 							</li>
@@ -133,7 +138,7 @@ const Pricing = () => {
 										/>
 									</svg>
 								</div>{' '}
-								<p className="text-[#475467] font-[400] text-[16px]">
+								<p className="text-[#475467] font-[400] text-[14px] md:text-[16px]">
 									{plan.transactions}
 								</p>
 							</li>
@@ -158,7 +163,7 @@ const Pricing = () => {
 										/>
 									</svg>
 								</div>{' '}
-								<p className="text-[#475467] font-[400] text-[16px]">
+								<p className="text-[#475467] font-[400] text-[14px] md:text-[16px]">
 									{plan.sku}
 								</p>
 							</li>
@@ -188,7 +193,7 @@ const Pricing = () => {
 											/>
 										</svg>
 									</div>{' '}
-									<p className="text-[#475467] font-[400] text-[16px]">
+									<p className="text-[#475467] font-[400] text-[14px] md:text-[16px]">
 										{feature}
 									</p>
 								</li>
