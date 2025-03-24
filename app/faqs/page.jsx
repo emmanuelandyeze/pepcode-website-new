@@ -82,16 +82,18 @@ const FAQSection = () => {
 						className="border-b last:border-none"
 					>
 						<button
-							className="w-full text-left py-4 flex justify-between items-center font-medium focus:outline-none"
+							className="w-full text-left cursor-pointer py-4 flex justify-between items-center font-medium focus:outline-none"
 							onClick={() => toggleFAQ(index)}
 						>
-							<span>{faq.question}</span>
+							<span className="text-[#48505E] text-[18px] font-[500]">
+								{faq.question}
+							</span>
 							<span className="text-xl">
 								{openIndex === index ? '−' : '+'}
 							</span>
 						</button>
 						{openIndex === index && (
-							<p className="text-gray-600 pb-4">
+							<p className="text-[#48505E] text-[16px] pb-4">
 								{faq.answer}
 							</p>
 						)}

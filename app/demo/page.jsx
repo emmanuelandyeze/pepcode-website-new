@@ -17,7 +17,7 @@ const Demo = () => {
 				</div>
 			</div>
 
-			<div className="max-w-4xl mx-auto mt-8 bg-white text-black p-6">
+			<div className="max-w-5xl mx-auto mt-8 bg-white text-black p-6">
 				<div className="flex flex-col md:flex-row md:gap-[112px] md:items-center">
 					{/* Left Section */}
 					<div className="flex flex-col items-start">
