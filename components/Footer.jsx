@@ -2,9 +2,11 @@ import Image from 'next/image';
 import {
 	FaInstagram,
 	FaFacebook,
-	FaTwitter,
 } from 'react-icons/fa';
-import { FaSquareInstagram } from 'react-icons/fa6';
+import {
+	FaSquareInstagram,
+	FaLinkedin,
+} from 'react-icons/fa6';
 
 const Footer = () => {
 	return (
@@ -54,14 +56,26 @@ const Footer = () => {
 				<div>
 					<h3 className="font-semibold">Social media</h3>
 					<div className="flex justify-center md:justify-start space-x-4 mt-2 text-gray-600">
-						<a href="#" className="hover:text-blue-700">
+						<a
+							href="https://www.instagram.com/pepcodeinc/"
+							target="_blank"
+							className="hover:text-blue-700"
+						>
 							<FaSquareInstagram size={18} />
 						</a>
-						<a href="#" className="hover:text-blue-700">
+						<a
+							href="https://web.facebook.com/profile.php?id=61552404393741"
+							target="_blank"
+							className="hover:text-blue-700"
+						>
 							<FaFacebook size={18} />
 						</a>
-						<a href="#" className="hover:text-blue-700">
-							<FaTwitter size={18} />
+						<a
+							href="https://www.linkedin.com/company/101203325/admin/dashboard/"
+							target="_blank"
+							className="hover:text-blue-700"
+						>
+							<FaLinkedin size={18} />
 						</a>
 					</div>
 				</div>
