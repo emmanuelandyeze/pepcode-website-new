@@ -19,7 +19,7 @@ const Demo = () => {
 			</div>
 
 			<div className="max-w-5xl mx-auto mt-8 bg-white text-black p-6">
-				<div className="flex flex-col md:flex-row md:gap-[112px] md:items-center">
+				<div className="flex flex-col md:flex-row md:gap-[102px] md:items-center">
 					{/* Left Section */}
 					<div className="flex flex-col items-start">
 						<p className="text-[#48505E] text-[14px] md:text-[18px] font-[400] mb-2">
@@ -38,37 +38,31 @@ const Demo = () => {
 					</div>
 
 					{/* Right Section (Form) */}
-					<div className="bg-white md:w-[446px] w-full md:h-[462px] flex flex-col justify-center shadow-lg rounded-lg p-6 border border-[#00000040]">
-						<form className="space-y-4">
-							<div className="grid grid-cols-2 gap-4">
-								<input
-									type="text"
-									placeholder="First name"
-									className="w-full border-[1px] border-[#667085] text-[#383E49] rounded-md px-4 py-2 focus:ring focus:ring-blue-300"
-								/>
-								<input
-									type="text"
-									placeholder="Last name"
-									className="w-full border border-[#667085] text-[#383E49] rounded-md px-4 py-2 focus:ring focus:ring-blue-300"
-								/>
+					<div className="bg-white md:w-[552px] w-full md:h-[462px] flex flex-col justify-center">
+						<div>
+							<h1 className="text-[24px] md:text-[32px] font-[600] text-[#0C111D] mb-4">
+								Unlock seamless bookkeeping with{' '}
+								<span className="text-[#004AAD]">Pepcode</span>
+							</h1>
+							<div>
+								<p className="text-[#48505E] text-[14px] md:text-[18px] font-[400]">
+									Whether you're ready to streamline your
+									finances or just have a few questions,
+									we're here to help.
+								</p>
+								<p className="text-[#48505E] text-[14px] md:text-[18px] font-[400] mb-4">
+									Let’s talk about how Pepcode can make
+									bookkeeping effortless for your business
+								</p>
 							</div>
-							<input
-								type="email"
-								placeholder="Email address"
-								className="w-full border border-[#667085] text-[#383E49] rounded-md px-4 py-2 focus:ring focus:ring-blue-300"
-							/>
-							<textarea
-								rows="7"
-								placeholder="Message"
-								className="w-full border border-[#667085] text-[#383E49] rounded-md px-4 py-2 focus:ring focus:ring-blue-300"
-							></textarea>
-							<button
-								type="submit"
-								className="w-full bg-[#004AAD] border border-[#667085] text-white font-medium py-[9px] px-[16px] rounded-md hover:bg-blue-700 transition"
+							<a
+								href="https://forms.gle/heEfSvYWxCviNQ138"
+								target="_blank"
+								className="bg-[#004AAD] mt-4 flex items-center justify-center cursor-pointer text-[14px] md:text-[16px] font-[500] text-white px-[20px] py-[12px] rounded-[4px] w-[100%] md:w-[190px] md:h-[48px]"
 							>
-								Send message
-							</button>
-						</form>
+								Get in touch
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>

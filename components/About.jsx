@@ -3,7 +3,7 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<div className=" max-w-[349px] md:max-w-[1048px] mx-auto overflow-hidden py-10 md:py-20 bg-[#fff] justify-center items-center">
+		<div className=" max-w-[349px] md:max-w-[908px] mx-auto overflow-hidden py-10 md:py-20 bg-[#fff] justify-center items-center">
 			<div className="flex flex-col md:flex-row md:justify-between">
 				<div>
 					<h1 className="md:text-[32px] text-[24px] font-[600] text-[#0C111D]">
