@@ -48,7 +48,7 @@ const Footer = () => {
 					<ul className="text-sm space-y-1">
 						<li>Support@pepcode.com</li>
 						<li>Suite 5, Mojisola Mall, Ibeshe, Ikorodu, Lagos</li>
-						<li>+234 8024247865</li>
+						<li>+234 816 348 9375</li>
 					</ul>
 				</div>
 
