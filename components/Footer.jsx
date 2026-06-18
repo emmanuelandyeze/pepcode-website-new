@@ -47,7 +47,7 @@ const Footer = () => {
 					<h3 className="font-semibold">Contact</h3>
 					<ul className="text-sm space-y-1">
 						<li>Support@pepcode.com</li>
-						<li>8 Rock Drive Lekki Phase One, Lagos</li>
+						<li>Suite 5, Mojisola Mall, Ibeshe, Ikorodu, Lagos</li>
 						<li>+234 8024247865</li>
 					</ul>
 				</div>
@@ -83,12 +83,12 @@ const Footer = () => {
 
 			{/* Copyright */}
 			<div className="text-center text-sm mt-6 text-gray-500">
-				© 2025 pepcode Inc. All Rights Reserved.{' '}
+				© 2026 Pepcode. All Rights Reserved.{' '}
 				<a
 					href="#"
 					className="text-blue-700 hover:underline"
 				>
-					Powered by Ploutos
+					Powered by Ploutospage
 				</a>
 			</div>
 		</footer>
