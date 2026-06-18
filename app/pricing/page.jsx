@@ -290,7 +290,7 @@ const Pricing = () => {
             Pricing plans
           </h2>
           <p className="text-[#C7DFFF] text-base md:text-lg max-w-2xl mx-auto">
-            Simple, transparent pricing that grows with you. Try any plan free for 30 days.
+            Simple, transparent pricing that grows with you. Try any plan now.
           </p>
         </div>
       </div>
@@ -299,21 +299,19 @@ const Pricing = () => {
       <div className="flex justify-center mb-10 px-4">
         <div className="flex border rounded-lg border-white/20 bg-white/5 p-1 backdrop-blur-sm">
           <button
-            className={`font-medium text-sm px-6 py-2.5 rounded-md cursor-pointer transition-all duration-200 ${
-              billingCycle === "monthly"
-                ? "text-[#091E42] bg-white shadow-sm font-semibold"
-                : "text-white hover:text-[#C7DFFF]"
-            }`}
+            className={`font-medium text-sm px-6 py-2.5 rounded-md cursor-pointer transition-all duration-200 ${billingCycle === "monthly"
+              ? "text-[#091E42] bg-white shadow-sm font-semibold"
+              : "text-white hover:text-[#C7DFFF]"
+              }`}
             onClick={() => setBillingCycle("monthly")}
           >
             Monthly billing
           </button>
           <button
-            className={`font-medium text-sm px-6 py-2.5 rounded-md cursor-pointer transition-all duration-200 ${
-              billingCycle === "annual"
-                ? "text-[#091E42] bg-white shadow-sm font-semibold"
-                : "text-white hover:text-[#C7DFFF]"
-            }`}
+            className={`font-medium text-sm px-6 py-2.5 rounded-md cursor-pointer transition-all duration-200 ${billingCycle === "annual"
+              ? "text-[#091E42] bg-white shadow-sm font-semibold"
+              : "text-white hover:text-[#C7DFFF]"
+              }`}
             onClick={() => setBillingCycle("annual")}
           >
             Annual billing
@@ -327,11 +325,10 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`flex flex-col bg-white rounded-[24px] p-6 md:p-8 hover:-translate-y-1 transition-all duration-300 shadow-md ${
-                plan.isPopular
-                  ? "border-2 border-[#3B82F6] shadow-[0_8px_30px_rgb(59,130,246,0.12)]"
-                  : "border border-gray-200"
-              }`}
+              className={`flex flex-col bg-white rounded-[24px] p-6 md:p-8 hover:-translate-y-1 transition-all duration-300 shadow-md ${plan.isPopular
+                ? "border-2 border-[#3B82F6] shadow-[0_8px_30px_rgb(59,130,246,0.12)]"
+                : "border border-gray-200"
+                }`}
             >
               {/* Card Header */}
               <div>
@@ -343,7 +340,7 @@ const Pricing = () => {
                   </div>
                 )}
                 <h3 className="text-xl font-bold text-gray-900">{plan.name}</h3>
-                
+
                 {billingCycle === "annual" ? (
                   <div className="flex flex-col my-3">
                     <div className="flex items-baseline gap-1">
@@ -393,13 +390,12 @@ const Pricing = () => {
                   className="block w-full"
                 >
                   <button
-                    className={`w-full py-3 px-4 rounded-lg text-sm font-semibold transition-all duration-200 text-center cursor-pointer ${
-                      plan.isPopular
-                        ? "bg-[#004AAD] hover:bg-[#003B8B] text-white shadow-sm shadow-[#004AAD]/15"
-                        : "border border-gray-300 text-gray-700 hover:bg-gray-50 bg-white"
-                    }`}
+                    className={`w-full py-3 px-4 rounded-lg text-sm font-semibold transition-all duration-200 text-center cursor-pointer ${plan.isPopular
+                      ? "bg-[#004AAD] hover:bg-[#003B8B] text-white shadow-sm shadow-[#004AAD]/15"
+                      : "border border-gray-300 text-gray-700 hover:bg-gray-50 bg-white"
+                      }`}
                   >
-                    Start free trial
+                    Start now
                   </button>
                 </a>
               </div>
@@ -409,11 +405,11 @@ const Pricing = () => {
       </div>
 
       {/* Bottom Note */}
-      <div className="max-w-6xl px-5 md:px-8 mx-auto mt-12">
+      {/* <div className="max-w-6xl px-5 md:px-8 mx-auto mt-12">
         <div className="bg-[#FAF9F5] border border-[#E6E4DD] rounded-xl p-6 text-sm text-[#4A5568] leading-relaxed shadow-sm text-left">
           <span className="font-semibold text-[#1A202C]">Note on NRS / e-invoicing:</span> The NRS feature is now bundled into all tiers at increasing levels — Basic gets entry-level access, Team unlocks VAT/WHT, and Business gets the full compliance and audit-ready suite. This removes the separate ₦4,000 add-on and makes the upgrade path clearer for customers.
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
